@@ -1,28 +1,22 @@
-
-body{
-	text-align: center;
-	background: url(websiteimages/helpscale);
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-hr{
-	width: 200px;
-	color: rgb(56,35,180);
-	font: bold;
-	}
-p{
-	color: rgb(26,97,203);
-	font-family: Helvetica;
+@font-face {}
+* {margin:0;padding:0;box-sizing:border-box;}
+body {
+	color: rgba(0,0,0,.8);
+	font-family: Helvetica, arial, sans-serif;
 	font-size: 20px;
-	margin-right: 150px;
+}
+section {
+	padding:5em 0;
 }
 img{
 	width: 200px;
-	height: 200px;
 }
 h1{
 	color: rgb(28, 183,193);
-	font-family: book antiqua;
-	margin-right: 150px;
-	font: bold;
+	font-family: 'book antiqua', serif;
+}
+#intro {
+	background: url(websiteimages/helpscale);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
