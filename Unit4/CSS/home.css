@@ -9,6 +9,13 @@ body {
 	font-family: Helvetica, arial, sans-serif;
 	font-size: 20px;
 }
+header{
+    background-color: #FFED74;
+
+}
+nav{
+    background-color: #E8C66A;
+}
 section {
 	padding:5em 0;
 }
@@ -18,9 +25,27 @@ img{
 h1{
 	color: rgb(28, 183,193);
 	font-family: 'Permanent Marker','Satisfy', cursive, serif;
+    font-variant: small-caps;
+}
+span{
+    text-transform: uppercase;
 }
 #intro {
 	background: url(websiteimages/helpscale);
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+p{
+    text-align: justify;
+}
+article{
+    background-color: #E89C6C;
+    padding: 8em 8em auto;
+}
+footer{
+
+    background-color: #FF957E;
+}
+div{
+    background-color:  #FFE2B8;
 }
