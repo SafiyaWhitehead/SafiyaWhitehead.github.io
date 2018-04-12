@@ -39,7 +39,6 @@ p{
     text-align: justify;
 }
 article{
-    background-color: #E89C6C;
     padding: 8em 8em auto;
 }
 footer{
@@ -49,3 +48,17 @@ footer{
 div{
     background-color:  #FFE2B8;
 }
+#Column1 {
+     background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+#COLUMN2{
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+

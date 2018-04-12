@@ -32,7 +32,7 @@ span{
 }
 #intro {
 	background: url(websiteimages/helpscale);
-	background-size: cover;
+	backgrou nd-size: cover;
 	background-repeat: no-repeat;
 }
 p{
