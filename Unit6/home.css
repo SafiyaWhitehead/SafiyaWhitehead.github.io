@@ -16,6 +16,9 @@ header{
 nav{
     background-color: #E8C66A;
 }
+#topnav{
+    float:left;
+}
 section {
 	padding:5em 0;
 }
@@ -31,7 +34,7 @@ span{
     text-transform: uppercase;
 }
 #intro {
-	background: url(websiteimages/helpscale);
+	background: url "#";
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -48,17 +51,40 @@ footer{
 div{
     background-color:  #FFE2B8;
 }
+#blogposts{
+    float: left;
+    padding: 1em;
+    width: 50%;
+}
 #Column1 {
      background-color: violet;
     border: 1px black solid;
-    padding: 20px;
+    padding: 2em;
     float: left;
-    width: 30%;
+    width: 50%;
 }
 #COLUMN2{
     background-color: pink;
     border: 1px black solid;
-    padding: 20px;
-    float: right;   
-    width: 62%;
+    padding: 2em;
+    float: left;   
+    width: 50%;
+}
+.clearfix::after {
+    overflow: both;
+}
+#COLUMN3{
+    background-color: blue;
+    float: left;
+    padding: 2em;
+    border: 1px black solid;
+    width: 50%
+}
+#COLUMN4{
+    background-color: lime;
+    float: left;
+    padding: 2em;
+    border: 1px black solid;
+    width: 50%
+}
 
